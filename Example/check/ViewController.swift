@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import check
+import Alamofire
 
 class ViewController: UIViewController {
 

@@ -1,0 +1,6 @@
+framework module check {
+  umbrella header "check-umbrella.h"
+
+  export *
+  module * { export * }
+}

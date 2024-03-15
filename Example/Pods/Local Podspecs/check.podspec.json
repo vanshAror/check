@@ -1,0 +1,37 @@
+{
+  "name": "check",
+  "version": "0.1.0",
+  "summary": "A short description of check.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vansh/check",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vansh": "avansh2001@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vansh/check.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "source_files": "check/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Alamofire"
+  ],
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(SDKROOT)/usr/lib/swift"
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

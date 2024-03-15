@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'check_Example' do
   pod 'check', :path => '../'
+pod 'Alamofire'
 
   target 'check_Tests' do
     inherit! :search_paths
